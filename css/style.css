@@ -1,0 +1,276 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+html {
+	height: 150%;
+}
+body{
+  background: url(../images/bg.jpg)no-repeat;
+  font-family: 'Montserrat', sans-serif;
+  background-size: 100% 135%;
+}
+.wrap{
+	margin: 0 auto;
+	width: 80%;
+}
+body a,form li,input[type="submit"],input[type="text"],.sixth-login input[type="submit"],.third-login input[type="submit"]{
+	transition: 0.1s all;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-o-transition: 0.1s all;
+}
+a {
+	color: #055fa5;
+	outline: none;
+}
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 3em;
+  font-weight: 100;
+  padding-top: 2em;
+}
+form {
+	padding-top: 1em;
+  background: #dee1e8;
+  border-radius: .4em;
+}
+form li{
+	list-style: none;
+	margin-bottom: 25px;
+	width: 100%;
+	background: #b73338;
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+}
+input[type="text"], select, input[type="date"] {
+  font-family: 'Open Sans', sans-serif;
+  width: 40%;
+  padding: 1em 1em 1em 1em;
+  color: #3D3E6A;
+  font-size: 14px;
+  outline: none;
+  background: #f5f6f7;
+  border: none;
+  font-weight: 100;
+  margin-bottom: 1em;
+  border: 1px solid#A8AEC5;
+  border-radius: .4em;
+	-webkit-border-radius: 0.4em;
+	-o-border-radius: 0.4em;
+	-moz-border-radius: 0.4em;
+}
+input[type="password"]{
+	font-family: 'Open Sans', sans-serif;
+  width: 40%;
+  padding: 1em 1em 1em 1em;
+	color: #3D3E6A;
+	font-size: 14px;
+	outline: none;
+	background: #f5f6f7;
+	border: none;
+	margin-bottom: 1em;
+	border: 1px solid#A8AEC5;
+	 border-radius: .4em;
+	-webkit-border-radius: 0.4em;
+	-o-border-radius: 0.4em;
+	-moz-border-radius: 0.4em;
+}
+input[type="submit"] {
+	background: #ff6600;
+	padding: .8em .6em .8em .6em;
+	outline: none;
+	border: none;
+	font-size: 1em;
+	cursor: pointer;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-top-right-radius: .4em;
+	-webkit-border-top-right-radius: .4em;
+	-o-border-top-right-radius: .4em;
+	-moz-border-top-right-radius: .4em;
+	border-bottom-right-radius: .4em;
+	-webkit-border-bottom-right-radius: .4em;
+	-o-border-bottom-right-radius: .4em;
+	-moz-border-bottom-right-radius: .4em;
+	position: absolute;
+	width: 12%;
+  	right: -12%;
+  	font-size: 14px;
+  	bottom: 10px;
+  	padding: .9em .6em .9em .6em;
+}
+input[type="submit"]:hover {
+	background: #1B2E68;
+	color: #fff;
+}
+input[type="text"], select {
+  width: 38%;
+  padding: 1em 1em 1em 1em;
+  font-size: 10px;
+}
+input[type="password"] {
+  width: 38%;
+  font-size: 10px;
+}
+
+.avtar{
+  width: 177px;
+  height: 220px;
+  margin: 2% auto 0 auto;
+  padding-bottom: 1em;
+  background-size: 100%;
+}
+.login-form {
+  width: 33%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.task-form {
+  width: 300px;
+  text-align: left;
+  margin: 0 auto;
+  position: relative;
+}
+.task-form form {
+	padding: 10px;
+	position: relative;
+}
+
+.task-form input[type="submit"] {
+	left: 300px;
+	width: auto;
+}
+.task-form label {
+	width: 120px;
+	display: inline-block;
+}
+.taskWrap {
+	width: 280px;
+	margin: 15px auto;
+	background-color: #dee1e8;
+	padding: 10px;
+	border-radius: 6px;
+}
+.taskWrap h1 {
+	font-size: 16px;
+	color: #000;
+	padding: 0;
+}
+.warning {
+  width: 33%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+    position: relative;
+}
+.register-form {
+  width: 33%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+    position: relative;
+}
+
+.login-form p {
+	padding-bottom: 2em;
+	color: #fff;
+	font-weight: 100;
+	font-size: 1.2em;
+}
+.login-form p a {
+	text-decoration: underline;
+	font-weight: 600;
+	margin-left: 7px;
+	color:#fff;
+}
+.login-form p a:hover {
+  color: #1B2E68;
+}
+.register-form p {
+	padding-bottom: 2em;
+	color: #fff;
+	font-weight: 100;
+	font-size: 1.2em;
+}
+.register-form p a {
+	text-decoration: underline;
+	font-weight: 600;
+	margin-left: 7px;
+	color:#fff;
+}
+.register-form p a:hover {
+  color: #1B2E68;
+}
+.colorRed {
+	color: #cc000e;
+}
+
+.warning p {
+	padding-top: 1em;
+	color: #1B2E68;
+	font-weight: 100;
+	font-size: 1.2em;
+}
+.copy-right {
+	text-align: center;
+	padding-top: 10em;
+	color: #fff;
+}
+.copy-right p a {
+	color: #FFF;
+}
+.copy-right p a:hover {
+	color: #ff6600;
+}
+
+.avtar {
+  text-align: center;
+    width: 160px;
+  height: 150px;
+  margin: 10% auto 0 auto;
+  padding-bottom: 50px;
+  background-size: 0;
+}
+
+.copy-right {
+  padding-top: 5em;
+}
+h1 {
+  padding-top: 1em;
+  font-size: 2em;
+}
+.login-form p {
+  margin-left: 1em;
+}
